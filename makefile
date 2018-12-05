@@ -1,6 +1,6 @@
 # This is a makefile for ~/robots
 # Author: Tanya L. Crenshaw
-CC=gcc
+CC=gcc -g
 
 
 robots.out:	main.c robot.o robot.h
